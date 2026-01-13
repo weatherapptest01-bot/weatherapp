@@ -106,7 +106,7 @@ function App() {
                   <div style={{ display: "flex", gap: "15px", alignItems: "center", position: "relative" }}>
                     <FaBars
                       size={26}
-                      color="#ff6600"
+                      color="#612e0b"
                       style={{ cursor: "pointer" }}
                       onClick={() => setMenuOpen(!menuOpen)}
                     />
