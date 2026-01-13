@@ -4,12 +4,7 @@ import { FaHome } from "react-icons/fa";
 import { motion } from "framer-motion";   // ✅ ADD THIS
 import Vegpizza from "./Vegpizza.jsx";
 import "./Pages.css";
-<<<<<<< HEAD
-// loging ussser
-=======
-//the menu
 
->>>>>>> 30aa28cf857db3275ed3baad267ac11aa52ef543
 /* Images */
 import VegImg from "./assets/vegg.jpeg";
 import ChickenImg from "./assets/muttonbriyani.jpeg";
