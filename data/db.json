@@ -1,0 +1,38 @@
+{
+  "items": [
+    { "id": 1, "name": "Paneer Biryani", "image": "./assets/PannerImg", "price": 500 },
+    { "id": 2, "name": "Jackfruit Biryani", "image": "./assets/JackImg", "price": 900, "discount": 30 },
+    { "id": 3, "name": "Veg Pulao", "image": "./assets/PulaoImg", "price": 850, "discount": 20 },
+    { "id": 4, "name": "Mushroom Biryani", "image": "./assets/MushroomImg", "price": 950, "discount": 20 },
+    { "id": 5, "name": "Veg Biryani", "image": "./assets/VegbriyaniImg", "price": 450 },
+    { "id": 6, "name": "Chicken Biryani", "image": "./assets/chickenImg", "price": 660 },
+    { "id": 7, "name": "Mutton Biryani", "image": "./assets/muttonImg", "price": 900, "discount": 20 },
+    { "id": 8, "name": "Fish Biryani", "image": "./assets/fishImg", "price": 850 },
+    { "id": 9, "name": "Prawn Biryani", "image": "./assets/prawnImg", "price": 880, "discount": 10 },
+    { "id": 10, "name": "Crab Biryani", "image": "./assets/crabImg", "price": 660 },
+
+    { "id": 11, "name": "Chicken Mandi", "image": "./assets/chickenmandiImg", "price": 200 },
+    { "id": 12, "name": "Mutton Mandi", "image": "./assets/muttonmandiImg", "price": 250 },
+    { "id": 13, "name": "Fish Mandi", "image": "./assets/fishmandiImg", "price": 180 },
+    { "id": 14, "name": "Prawn Mandi", "image": "./assets/prawnmandiImg", "price": 220 },
+    { "id": 15, "name": "Veg Mandi", "image": "./assets/vegmandiImg", "price": 170 },
+
+    { "id": 16, "name": "Veg Pizza", "image": "./assets/vegpizzaImg", "price": 800 },
+    { "id": 17, "name": "Chicken Pizza", "image": "./assets/chickenpizzaImg", "price": 950 },
+    { "id": 18, "name": "BBQ Pizza", "image": "./assets/bbqpizzaImg", "price": 670 },
+    { "id": 19, "name": "Spicy Chicken Pizza", "image": "./assets/spicypizzaImg", "price": 800 },
+    { "id": 20, "name": "Tandoori Pizza", "image": "./assets/tandooriImg", "price": 800 },
+
+    { "id": 21, "name": "Kunafa", "image": "./assets/kunafaImg", "price": 700 },
+    { "id": 22, "name": "Tiramisu", "image": "./assets/tiramisuImg", "price": 800 },
+    { "id": 23, "name": "Choco Brownie", "image": "./assets/chocobrowineImg", "price": 780 },
+    { "id": 24, "name": "ChocoBar", "image": "./assets/chocobarImg", "price": 780 },
+
+    { "id": 25, "name": "Chocolate Icecream", "image": "./assets/chocolateImg", "price": 780 },
+    { "id": 26, "name": "Strawberry Icecream", "image": "./assets/strawberryImg", "price": 780 },
+    { "id": 27, "name": "Vanila Icecream", "image": "./assets/vanillaImg", "price": 780 },
+    { "id": 28, "name": "Blackcurrent Icecream", "image": "./assets/blackcurrentImg", "price": 780 },
+    { "id": 29, "name": "Cone Icecream", "image": "./assets/coneImg", "price": 780 },
+    { "id": 30, "name": "Butterstoch Icecream", "image": "./assets/ButterImg", "price": 780 }
+  ]
+}

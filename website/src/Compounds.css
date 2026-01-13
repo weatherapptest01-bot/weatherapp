@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.compounds-container {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+/* ===== COMMON PAGE SECTION ===== */
+.page-section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ===== BACKGROUND IMAGE ===== */
+.page-image-overlay {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.full-bg-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.45);
+}
+
+/* ===== OVERLAY CONTENT ===== */
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  max-width: 1100px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  padding: 40px;
+  backdrop-filter: blur(4px);
+}
+
+/* ===== PAGE HEADINGS (DOUBLE SHADE) ===== */
+.page-title {
+  font-size: 3.4rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  /* DOUBLE SHADE EFFECT */
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+ 
+  -webkit-text-fill-color: transparent;
+  color: #8e2de2;
+
+  text-shadow: 
+    2px 2px 0 rgba(0, 0, 0, 0.5),
+    5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* ===== ABOUT PAGE CONTENT ===== */
+.page-text {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  max-width: 900px;
+  margin: auto;
+  color: #f5f5f5;
+}
+
+.page-text p {
+  margin-bottom: 18px;
+}
+
+/* ===== MENU PAGE ===== */
+.menu-section {
+  padding: 80px 6%;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* MENU PAGE HEADING */
+.menu-section .page-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  
+  -webkit-text-fill-color: transparent;
+  color: #ff6a00;
+  text-shadow:
+    2px 2px 5px rgba(0,0,0,0.4),
+    4px 4px 15px rgba(0,0,0,0.5);
+}
+
+/* MENU PAGE SUBTITLE */
+.menu-section .page-text {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #f0f0f0;
+  font-style: italic;
+}
+
+/* MENU CARDS */
+.menu-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.menu-card {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+  color: #fff;
+  text-align: center;
+}
+
+.menu-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #ffcf33;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.menu-card p {
+  font-size: 1.1rem;
+  color: #f0f0f0;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* ===== CONTACT PAGE ===== */
+.contact-section {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.contact-info {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 30px;
+  border-radius: 16px;
+  min-width: 280px;
+}
+
+.contact-info p {
+  font-size: 1.15rem;
+  margin-bottom: 14px;
+}
+
+/* CONTACT FORM */
+.contact-form {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 16px;
+  min-width: 300px;
+}
+
+.contact-form h3 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+
+.contact-form textarea {
+  width: 100%;
+  height: 110px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.send-btn {
+  margin-top: 14px;
+  padding: 12px 30px;
+  background: linear-gradient(90deg, #4a00e0, #8e2de2);
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(142, 45, 226, 0.7);
+}
+
+/* ===== HELP & SUPPORT ===== */
+.help-section {
+  max-width: 600px;
+  margin: 40px auto 0;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 35px;
+  border-radius: 20px;
+}
+
+.help-form textarea {
+  width: 100%;
+  height: 90px;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  resize: none;
+  font-size: 1rem;
+}
+
+.help-form .send-btn {
+  display: block;
+  margin: 20px auto 0;
+}
+
+/* ===== PROFESSIONAL SEARCH BAR & HEADING ===== */
+.pro-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1c1c1c;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  letter-spacing: 1px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.pro-search {
+  width: 60%;
+  padding: 0.6rem 1rem;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.pro-search:focus {
+  border-color: #ff4d4f;
+  box-shadow: 0 4px 12px rgba(255,77,79,0.3);
+}
+
+/* FILTER BUTTONS */
+.pro-filters {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.pro-filters button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #f0f0f0;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.pro-filters button:hover {
+  background: #ff4d4f;
+  color: #fff;
+}
+
+.pro-filters button.active {
+  background: #ff4d4f;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(255,77,79,0.4);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  .overlay-content {
+    padding: 25px;
+  }
+
+  .page-text {
+    font-size: 1.05rem;
+  }
+
+  .pro-search {
+    width: 90%;
+  }
+  menu-section .page-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  /* Bright gradient */
+  background: linear-gradient(135deg, #ffaf00, #ff4d4f); /* yellow-orange to red-pink */
+ 
+  -webkit-text-fill-color: transparent;
+  color: #ffaf00;
+
+  /* Stronger shadow for glow effect */
+  text-shadow:
+    2px 2px 4px rgba(0,0,0,0.5),
+    4px 4px 10px rgba(255,175,0,0.6),
+    0 0 15px rgba(255,77,79,0.7);
+}
+}
