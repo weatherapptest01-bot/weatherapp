@@ -1,7 +1,7 @@
 import { useState, createContext } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import "./App.css";
-// test
+
 
 /* Components */
 import Vegpizza from "./Vegpizza.jsx";
