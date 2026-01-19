@@ -172,7 +172,7 @@ function App() {
                     )}
                     <FaUser
                       size={26}
-                      color="#ff6600"
+                      color="#8a4d25"
                       style={{ cursor: "pointer" }}
                       onClick={() => !loggedUser && navigate("/login")}
                     />
